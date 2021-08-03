@@ -1,0 +1,130 @@
+/* color chard
+brown:      rgb(157, 107, 83);
+green:      rgb(107, 112, 92);
+            rgb(233, 237, 201);
+yellow:     rgb(254, 250, 224);
+*/
+
+body {
+  padding: 150px 30px;
+  background-image: url("../media/background_flowers.jpg");
+  color: rgb(107, 112, 92);
+  font-family: "Oxygen", sans-serif;
+  font-size: 17px;
+}
+/* default link styling */
+a {
+  color: rgb(157, 107, 83);
+}
+a:hover {
+  color: rgb(157, 107, 83);
+  font-size: 20px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  margin: 5px auto;
+  border: solid 1px transparent;
+  border-radius: 10px;
+  background: rgb(254, 250, 224);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.row {
+  padding: 40px 40px;
+}
+.opacity-fix {
+  opacity: 0.7;
+}
+
+.quote {
+  padding: 20px;
+  margin: 0;
+  color: rgb(0, 0, 0); /* rgb(107, 112, 92); */
+  text-align: center;
+  font-size: 30px;
+  font-family: "Coming Soon", cursive;
+}
+.today,
+.city-information {
+  width: 313px;
+  padding: 0;
+}
+.forecast {
+  font-size: 19px;
+  width: 200px;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  font-family: "Coming Soon", cursive;
+}
+/*Display for the chosen city */
+.video-mask {
+  margin: 30px auto;
+  width: 280px;
+  height: 260px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#current-city {
+  display: block;
+  font-size: 50px;
+  color: rgb(107, 112, 92);
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+#current-time,
+#weather-description {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(107, 112, 92, 0.7);
+}
+#temp-degrees {
+  font-size: 60px;
+}
+
+#temp-units {
+  display: inline;
+  position: relative;
+  top: -30px;
+  font-size: 15px;
+}
+
+/* City information + search engine */
+
+.form-styling {
+  color: rgb(107, 112, 92);
+  font-size: 17px;
+  padding: 10px;
+  margin: 3px;
+  border: solid 3px white;
+  border-radius: 10px;
+  background: #fff;
+  transition: 150ms ease-in-out;
+}
+#current-location-btn {
+  text-align: left;
+  width: 98%;
+}
+#submit-btn {
+  background: rgb(233, 237, 201);
+}
+
+#submit-btn:hover {
+  background: rgb(107, 112, 92);
+  color: #fff;
+}
+
+#about-luise {
+  text-align: center;
+  color: rgb(254, 250, 224);
+  background: transparent;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
